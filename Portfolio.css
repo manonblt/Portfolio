@@ -1,0 +1,363 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #323232;
+    color: #f2f2f2;
+    font-weight: 200;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    background-color: #323232;
+    color: #f2f2f2;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 12px;
+    transition: all .1s ease;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+main {
+    padding: 0 50px;
+}
+
+main .home {
+    padding: 140px 0;
+    text-align: left;
+}
+
+main .home .home-content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+main .home h1 {
+    font-size: 45px;
+    margin: 0;
+    font-weight: 200;
+}
+
+main .arrow {
+    text-align: center;
+}
+
+main .section1 {
+    padding: 30px 150px;
+    text-align: left;
+}
+
+
+main .section1 h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+main .section1 .arguments1 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding:  0px;
+}
+
+main .section1 .arguments1 h3 {
+    color: #E0B6AF;
+    margin: 0 0;
+    font-weight: 200;
+}
+
+main .section1 .arguments1 .cta-content .cta {
+    background-color: #f2f2f2;
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 5px;
+    padding: 17px 0;
+    margin-right: 170px;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+    transition: all 0.1s ease
+}
+
+main .section1 .arguments1 .cta-content .cta:hover {
+    background-color: #707070;
+    color: #f2f2f2;
+}
+
+main .section1 .arguments1 .visual img {
+    height: 573px;
+    margin-right: 50px;
+    margin-left: 65px;
+}
+
+main .section1 .arguments1 .text-container {
+    text-align: left;
+    margin-left: 50px;
+}
+
+main .section1 .arguments1 .text-container .text {
+    margin-top: 0;
+}
+
+main .section1 .arguments1 .text-container .text p {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+main .section1 .arguments1 .text-container .text ul {
+    list-style: none;
+    padding: 0 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+main .section1 .arguments1 .text-container .text img {
+    height: 23px;
+    width: 23px;
+    margin-right: 25px;
+    margin-bottom: -5px;
+}
+
+main .section1 .arguments1 .text-container .text2 ul {
+    list-style: none;
+    padding: 0 48px;
+    padding-bottom: 20px;
+    margin: 0 0;
+}
+
+main .section1 .arguments1 .text-container .social ul {
+    list-style: none;
+    display: flex;
+    padding: 0 0;
+    margin: 0 0;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 165px;
+}
+
+
+main .section1 .arguments1 .text-container .social img {
+    height: 23px;
+    transition: all 0.1s ease
+}
+
+main .section1 .arguments1 .text-container .social img:hover {
+    height: 28px;
+}
+
+
+main .section2 {
+    padding: 30px 0;
+    text-align: left;
+}
+
+main .section2 h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+main .section2 h2 {
+    font-weight: 400;
+}
+
+main .section2 .container {
+    display: flex; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+main .section2 .container >div {
+    flex: 1;
+    padding: 30px;
+
+}
+
+main .section2 .container h3 {
+    color: #E0B6AF;
+    font-weight: 200;
+}
+
+main .section2 .container img {
+    width: 100%;
+}
+
+main .section2 .container ul {
+    list-style: none;
+    padding: 0 0;
+}
+
+main .section2 .container .text2 {
+    padding-right: 60px;
+}
+
+main .section2 .container .cta-content .cta {
+    background-color: #f2f2f2;
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 5px;
+    padding: 17px 0;
+    margin-right: 211px;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+    transition: all 0.1s ease;
+}
+
+main .section2 .container .cta-content .cta:hover {
+    background-color: #707070;
+    color: #f2f2f2;
+}
+
+main .section3 {
+    padding: 30px 0;
+}
+
+main .section3 h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+main .section3 .container2 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main .section3 .container2 h2 {
+    font-weight: 400;
+}
+
+main .section3 .container2 >div {
+    flex: 1;
+    padding: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+main .section3 .container2 >div ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transition: opacity 0.3 ease-out;
+}
+
+main .section3 .container2 >div:hover ul {
+    opacity: 1;
+}
+
+
+main .section3 .container2 img {
+    height: 150px;
+    width: 150px;
+}
+
+main .section3 .container2 h2 {
+    text-align: center;
+}
+
+main .section3 .container2 ul {
+    list-style: none;
+    padding: 0 0;
+    margin: 0 0;
+    color: #000000;
+}
+
+main .section3 .container2 .blocA {
+    text-align: left;
+    background-color: #E0B6AF;
+    margin: 20px 30px;
+}
+
+main .section3 .container2 .blocB {
+    text-align: left;
+    background-color: #E0B6AF;
+    margin: 20px 30px;
+}
+
+main .section3 .container2 .blocC {
+    text-align: left;
+    background-color: #E0B6AF;
+    margin: 20px 30px;
+}
+main .section3 .container3 {
+    text-align: center;
+    height: 500px;
+}
+
+main .section3 .container3 #gauge {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 0 65px;
+}
+
+main .section3 .container3 #gauge #gestion-projet {
+    height: 230px;
+    width: 280px;
+}
+
+main .section3 .container3 #gauge #creativite {
+    height: 230px;
+    width: 280px;
+}
+
+main .section3 .container3 #gauge #rigueur {
+    height: 230px;
+    width: 280px;
+}
+
+main .section3 .container3 #gauge #motivation {
+    height: 230px;
+    width: 280px;
+}
+
+main .section3 .container3 #gauge #communication {
+    height: 230px;
+    width: 280px;
+}
+
+main .section3 .container3 #gauge #resolution {
+    height: 230px;
+    width: 280px;
+}
+
